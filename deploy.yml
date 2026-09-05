@@ -1,0 +1,17 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: sachnun/hugging-repo@v1
+        with:
+          hf_token: ${{ secrets.HF_TOKEN }}
+          hf_repo: 'suno-prompt-uretici'
+          repo_type: 'space'
+          space_sdk: 'gradio'
