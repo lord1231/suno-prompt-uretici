@@ -1,0 +1,7 @@
+requests
+pandas
+numpy
+matplotlib
+google-genai
+midi2audio
+pydub
