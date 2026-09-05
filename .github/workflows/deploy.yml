@@ -9,9 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: sachnun/hugging-repo@v1
+      - uses: huggingface/hub-sync@v0.1.0
         with:
+          github_repo_id: ${{ github.repository }}
+          huggingface_repo_id: lord1231/suno-prompt-uretici
           hf_token: ${{ secrets.HF_TOKEN }}
-          hf_repo: 'suno-prompt-uretici'
-          repo_type: 'space'
-          space_sdk: 'gradio'
+          repo_type: space
+          space_sdk: gradio
+          private: false
