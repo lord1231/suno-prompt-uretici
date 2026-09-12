@@ -1,6 +1,6 @@
 ---
 title: Suno Prompt Uretici
-emoji: müzik
+emoji: 🎵
 colorFrom: purple
 colorTo: pink
 sdk: gradio
