@@ -1,5 +1,4 @@
 [README.md](https://github.com/user-attachments/files/32140277/README.md)
----
 title: Suno Prompt Uretici
 emoji: 🎧
 colorFrom: purple
