@@ -1,6 +1,6 @@
-[README.md](https://github.com/user-attachments/files/32140277/README.md)
+---
 title: Suno Prompt Uretici
-emoji: 🎧
+emoji: müzik
 colorFrom: purple
 colorTo: pink
 sdk: gradio
@@ -9,18 +9,12 @@ app_file: app.py
 pinned: false
 ---
 
-# Suno Prompt Üretici
+# Suno Prompt Uretici
 
-Bir şarkı yükle, teknik analiz (BPM/Key/Akor/Waveform), AI destekli derin
-müzikal analiz, tüm stem'ler ve Suno için hazır prompt otomatik üretilsin.
+Bir sarki yukle, teknik analiz (BPM/Key/Akor/Waveform), AI destekli derin muzikal analiz, tum stemler ve Suno icin hazir prompt otomatik uretilsin.
 
 ## Bu repo Hugging Face Space'ine otomatik senkronize olur
 
-GitHub'da `main` dalına yapılan her push, `.github/workflows/deploy.yml`
-üzerinden otomatik olarak Hugging Face Space'ine gönderilir.
+GitHub'da main dalina yapilan her push, .github/workflows/deploy.yml uzerinden otomatik olarak Hugging Face Space'ine gonderilir.
 
-Space'in kendi Secrets'ında (Settings > Repository secrets) şunlar
-tanımlı olmalı:
-- `FADR_API_KEY`
-- `GEMINI_API_KEY`
-- `APP_PASSWORD`
+Space'in kendi Secrets'inda (Settings > Repository secrets) sunlar tanimli olmali: FADR_API_KEY, GEMINI_API_KEY, APP_PASSWORD
